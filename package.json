@@ -1,6 +1,6 @@
 {
-	"name": "svelte-cubed",
-	"version": "0.2.1",
+	"name": "@jackdra/svelte-cubed",
+	"version": "0.2.2",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -34,12 +34,6 @@
 		"typescript": "^4.3.5"
 	},
 	"type": "module",
-	"pnpm": {
-		"overrides": {
-			"@sveltejs/kit": "link:../../KIT/kit/packages/kit",
-			"@sveltejs/site-kit": "link:../../sites/packages/site-kit"
-		}
-	},
 	"dependencies": {
 		"hast-util-heading-rank": "^2.1.0",
 		"unist-util-visit": "^4.1.0",
